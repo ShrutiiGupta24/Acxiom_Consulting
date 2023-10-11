@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <link rel="stylesheet" href="Set.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+</head>
+<body>
+
+ 
+<h1><b><center> ENABLE A REMINDER </center></b> </h1>
+
+<form>
+<center><p>Select a date:&nbsp &nbsp &nbsp<input class="form-control" type ="datetime-local" placeholder="Select DateTime"></p></center><br>
+ 
+<center><label for="Subject">Choose a Subject:</label>&nbsp &nbsp &nbsp 
+
+<select name="Subject" id="Subject">
+  <option value="Complete your task">Complete your task</option>
+  <option value="24 hours remaining for deadline">24 hours remaining for deadline</option>
+  <option value="Meeting Schedule at 7pm">Meeting Schedule at 7pm</option>
+  <option value="Submit your reports">Submit your reports</option>
+</select></center>
+<br>
+<center><label for="Subject">Choose a Reminder:</label>&nbsp &nbsp &nbsp 
+
+<select name="Subject" id="Subject">
+  <option value="Complete your task">Complete your task</option>
+  <option value="24 hours remaining for deadline">24 hours remaining for deadline</option>
+  <option value="Meeting Schedule at 7pm">Meeting Schedule at 7pm</option>
+  <option value="Submit your reports">Submit your reports</option>
+</select></center>
+<br>
+
+
+
+<center><label for="adsec">Add Description:</label>&nbsp &nbsp 
+<input type="text" id="adesc" name="adesc"><center><br>
+
+<center><label for="Email">Email Address:</label>&nbsp &nbsp 
+<input type="text" id="Email" name="Email"><center><br>
+
+<center><label for="Contact No.">Contact Number:</label>&nbsp &nbsp 
+<input type="text" id="Contact No." name="Contact No."><center><br>
+
+<center><label for="SMS No.">SMS Number:</label>&nbsp &nbsp 
+<input type="text" id="SMS No." name="SMS No."><center><br>
+
+
+<fieldset style="width: 100px">
+  <legend>Select recur for next</legend>
+<div>
+<input type="checkbox" id="7 days" name="7 days" value="7 days">
+<label for="7 days"> 7 days</label><br>
+
+<input type="checkbox" id="5 days" name="5 days" value="5 days">
+<label for="5 days"> 5 days</label><br>
+
+<input type="checkbox" id="3 days" name="3 days" value="3 days">
+<label for="3 days"> 3 days</label><br>
+
+<input type="checkbox" id="2 days" name="2 days" value="2 days">
+<label for="2 days"> 2 days</label><br></p>
+
+</div>
+</fieldset>
+</form>
+
+<a href="Index.html"> 
+<div class="container" style="background-color:#f1f1f1">
+    <button type="button" class="back">BACK</button>
+ </a>   
+  </div>
+
+
+
+<a href="EnabledConfirm.html"> 
+<div class="container" style="background-color:#f1f1f1">
+<button type="button" class="Confirm">COMFIRM</button>
+</a> 
+</div>
+
+<a href="logout.html"> 
+<div class="container" style="background-color:#f1f1f1">
+<button type="button" class="logout">LOGOUT</button>
+</a> 
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+<script>flatpickr("#myID", {})</script>
+</body>
+</html>

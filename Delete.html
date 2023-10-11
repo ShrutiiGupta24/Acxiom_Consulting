@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <link rel="stylesheet" href="Set.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+</head>
+<body>
+
+ 
+<h1><b><center> DELETE A REMINDER </center></b> </h1>
+
+<form>
+<center><p>Select a date:&nbsp &nbsp &nbsp<input class="form-control" type ="datetime-local" placeholder="Select DateTime"></p></center><br>
+ 
+<center><label for="Subject">Choose a Subject:</label>&nbsp &nbsp &nbsp 
+
+<select name="Subject" id="Subject">
+  <option value="Complete your task">Complete your task</option>
+  <option value="24 hours remaining for deadline">24 hours remaining for deadline</option>
+  <option value="Meeting Schedule at 7pm">Meeting Schedule at 7pm</option>
+  <option value="Submit your reports">Submit your reports</option>
+</select></center>
+<br>
+
+<center><label for="Subject">Choose a Reminder:</label>&nbsp &nbsp &nbsp 
+
+<select name="Subject" id="Subject">
+  <option value="Complete your task">Complete your task</option>
+  <option value="24 hours remaining for deadline">24 hours remaining for deadline</option>
+  <option value="Meeting Schedule at 7pm">Meeting Schedule at 7pm</option>
+  <option value="Submit your reports">Submit your reports</option>
+</select></center>
+<br>
+
+
+<center><label for="adsec">Add Description:</label>&nbsp &nbsp 
+<input type="text" id="adesc" name="adesc"><center><br>
+
+
+</form>
+
+<a href="Index.html"> 
+<div class="container" style="background-color:#f1f1f1">
+    <button type="button" class="back">BACK</button>
+ </a>   
+  </div>
+
+
+
+<a href="deleteConfirm.html"> 
+<div class="container" style="background-color:#f1f1f1">
+<button type="button" class="Confirm">COMFIRM</button>
+</a> 
+</div>
+
+<a href="logout.html"> 
+<div class="container" style="background-color:#f1f1f1">
+<button type="button" class="logout">LOGOUT</button>
+</a> 
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+<script>flatpickr("#myID", {})</script>
+</body>
+</html>
